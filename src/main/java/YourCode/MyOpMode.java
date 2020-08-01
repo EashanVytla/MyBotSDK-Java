@@ -5,13 +5,14 @@ import InternalFiles.*;
 //import sun.java2d.pipe.SpanShapeRenderer;
 
 //If you want to be able to run the OpMode then you need this. The name is optional.
-@RegisterOpMode(name = "Nihar")
+@RegisterOpMode
 //Make sure that you extend to OpMode to access the robot properly.
 public class MyOpMode extends OpMode {
     //IMPORTANT: When running please click the DEBUG button NOT RUN!
     //See EXAMPLE_OpMode in the ExampleCode Package for more information
-    Localizer localizer;
+    //Localizer localizer;
     Mecanum_Drive drive;
+    Localizer localizer;
 
     enum State{
         CENTER,
@@ -24,26 +25,13 @@ public class MyOpMode extends OpMode {
     State mRobotState = State.CENTER;
 
     public void init() {
-        localizer =  new Localizer(Robot);
+        localizer = new Localizer(Robot);
         drive = new Mecanum_Drive(Robot, telemetry);
     }
 
-
     public void loop(){
-        switch (mRobotState){
-            case CENTER:
-                mRobotState = State.TOP_LEFT;
-                break;
-            case TOP_LEFT:
-                drive.goToPoint(new Pose2d(-30, 30, Math.PI/2), localizer.getPose());
-                if(new Vector3(-30, 30).distanceToVector(new Vector3(localizer.getPose().x, localizer.getPose().y)) < 1.0){
-                    mRobotState = State.BOTTOM_RIGHT;
-                }
-                break;
-            case BOTTOM_RIGHT:
-
-        }
-
+        Robot.goToPoint(new Pose2d(30, 30, Math.PI/2), new Pose2d(localizer.getPose().x, localizer.getPose().y, -localizer.getPose().heading), 1.0, 1.0);
+        telemetry.addData("Pose: ", localizer.getPose().toString());
 
         localizer.update();
     }

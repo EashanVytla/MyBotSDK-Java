@@ -6,7 +6,7 @@ import InternalFiles.Vector3;
 
 public class Localizer {
     MecanumRobot myrobot;
-    Pose2d myPose = new Pose2d(0, 0, 0);
+    public Pose2d myPose = new Pose2d(0, 0, 0);
     double TRACK_WIDTH = 15.39;
     double prevstrafe = 0;
     double prevvert = 0;

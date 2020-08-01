@@ -1,8 +1,5 @@
 package InternalFiles;
 
-import com.acmerobotics.roadrunner.control.PIDCoefficients;
-import com.acmerobotics.roadrunner.control.PIDFController;
-
 import javax.swing.*;
 
 public class MecanumRobot {
@@ -17,9 +14,9 @@ public class MecanumRobot {
     protected static boolean gyroreciever;
     protected static boolean posereciever;
 
-    PIDFController PID_X;
-    PIDFController PID_Y;
-    PIDFController PID_Z;
+    PID_Controller PID_X;
+    PID_Controller PID_Y;
+    PID_Controller PID_Z;
 
     private float kp = 0.03f;
     private float ki = 0;
@@ -38,9 +35,9 @@ public class MecanumRobot {
         gyroquery = false;
         centric = false;
 
-        PID_X = new PIDFController(new PIDCoefficients(kp, ki, kd));
-        PID_Y = new PIDFController(new PIDCoefficients(kp, ki, kd));
-        PID_Z = new PIDFController(new PIDCoefficients(kpr, kir, kdr));
+        PID_X = new PID_Controller(kp, ki, kd);
+        PID_Y = new PID_Controller(kp, ki, kd);
+        PID_Z = new PID_Controller(kpr, kir, kdr);
 
         leftreciever = false;
         rightreciever = false;
@@ -58,12 +55,12 @@ public class MecanumRobot {
         kir = kiRot;
         kdr = kdRot;
 
-        PID_X = new PIDFController(new PIDCoefficients(kp, ki, kd));
-        PID_Y = new PIDFController(new PIDCoefficients(kp, ki, kd));
-        PID_Z = new PIDFController(new PIDCoefficients(kpr, kir, kdr));
+        PID_X = new PID_Controller(kp, ki, kd);
+        PID_Y = new PID_Controller(kp, ki, kd);
+        PID_Z = new PID_Controller(kpr, kir, kdr);
     }
 
-    public double RangeClip(double value, double min, double max) {
+    public double clip(double value, double min, double max) {
         if (value >= max) {
             return max;
         } else if (value <= min) {
@@ -85,7 +82,7 @@ public class MecanumRobot {
             msngr.StartClient("P,");
             posequery = false;
         } else {
-            msngr.StartClient("rp" + RangeClip(ul, -1.0f, 1.0f) + "|" + RangeClip(ur, -1.0f, 1.0f) + "|" + RangeClip(bl, -1.0f, 1.0f) + "|" + RangeClip(br, -1.0f, 1.0f) + ",");
+            msngr.StartClient("rp" + clip(ul, -1.0f, 1.0f) + "|" + clip(ur, -1.0f, 1.0f) + "|" + clip(bl, -1.0f, 1.0f) + "|" + clip(br, -1.0f, 1.0f) + ",");
         }
     }
 
@@ -163,10 +160,6 @@ public class MecanumRobot {
     }
 
     public void goToPoint(Pose2d targetPos, Pose2d currentPos, double maxmovespeed, double maxturnspeed) {
-        PID_X.setOutputBounds(-maxmovespeed, maxmovespeed);
-        PID_Y.setOutputBounds(-maxmovespeed, maxmovespeed);
-        PID_Z.setOutputBounds(-maxturnspeed, maxturnspeed);
-
         double heading = 0;
         double target_heading = targetPos.heading;
 
@@ -180,13 +173,9 @@ public class MecanumRobot {
             target_heading = -((2 * Math.PI) - targetPos.heading);
         }
 
-        PID_X.setTargetPosition(targetPos.x);
-        PID_Y.setTargetPosition(targetPos.y);
-        PID_Z.setTargetPosition(target_heading);
+        double headingpower = PID_Z.update(target_heading, heading);
 
-        double headingpower = PID_Z.update(heading);
-
-        setPowerCentic(-PID_X.update(currentPos.x), PID_Y.update(currentPos.y), headingpower, currentPos.heading);
+        setPowerCentic(-clip(PID_X.update(targetPos.x, currentPos.x), -maxmovespeed, maxmovespeed), clip(PID_Y.update(targetPos.y, currentPos.y), -maxmovespeed, maxmovespeed), clip(headingpower, -maxturnspeed, maxturnspeed), currentPos.heading);
     }
 
     public void goToPoint(double target_x, double target_y, double target_heading, double currentPos_x, double currentPos_y, double currentHeading, double maxmovespeed, double maxturnspeed) {

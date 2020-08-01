@@ -1,11 +1,7 @@
 package YourCode;
 
-import InternalFiles.MecanumRobot;
-import InternalFiles.Pose2d;
-import InternalFiles.Telemetry;
-import InternalFiles.Vector3;
+import InternalFiles.*;
 
-import java.awt.*;
 import java.util.Arrays;
 
 
@@ -76,9 +72,6 @@ public class Mecanum_Drive {
         double _x_power = _x_controller.update(target.x, current.x);
         double _y_power = _y_controller.update(target.y, current.y);
         double _rot_power = _turn_controller.update(target_heading, heading);
-
-        telemetry.addData("Target: ", String.valueOf(Math.toDegrees(target_heading)));
-        telemetry.addData("Error: ", String.valueOf(Math.toDegrees(_turn_controller.error)));
 
         setPowerCentric(-_x_power, _y_power, -_rot_power, current.heading);
     }

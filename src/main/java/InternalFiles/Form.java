@@ -47,11 +47,11 @@ public class Form {
                         }else {
                             adaptiveOpMode.Robot.msngr.setupIPMac();
                         }
-                        adaptiveOpMode.init();
-                        StrtBtn.setText("Start");
-                        mAppState = State.STATE_START;
                         adaptiveOpMode.Robot.msngr.StartClient("v1.4,");
                         adaptiveOpMode.Robot.msngr.StartClient("start,");
+                        adaptiveOpMode.init();
+                        mAppState = State.STATE_START;
+                        StrtBtn.setText("Start");
                     }
                     else
                     {
