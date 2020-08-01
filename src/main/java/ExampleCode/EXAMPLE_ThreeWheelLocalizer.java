@@ -1,10 +1,10 @@
-package YourCode;
+package ExampleCode;
 
 import InternalFiles.MecanumRobot;
 import InternalFiles.Pose2d;
 import InternalFiles.Vector3;
 
-public class Localizer {
+public class EXAMPLE_ThreeWheelLocalizer {
     MecanumRobot myrobot;
     public Pose2d myPose = new Pose2d(0, 0, 0);
     double TRACK_WIDTH = 15.39;
@@ -13,7 +13,7 @@ public class Localizer {
     double prevheading;
     double STRAFE_WIDTH =4.231; //center of the robot to the perpendicular wheel
 
-    public Localizer(MecanumRobot robot){
+    public EXAMPLE_ThreeWheelLocalizer(MecanumRobot robot){
         myrobot = robot;
     }
 
