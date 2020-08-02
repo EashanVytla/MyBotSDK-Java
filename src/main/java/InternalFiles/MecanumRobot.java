@@ -103,10 +103,10 @@ public class MecanumRobot {
     }
 
     public void setPower(double x, double y, double rot) {
-        double FrontLeftVal = y - x + rot;
-        double FrontRightVal = y + x - rot;
-        double BackLeftVal = y + x + rot;
-        double BackRightVal = y - x - rot;
+        double FrontLeftVal = y + x + rot;
+        double FrontRightVal = y - x - rot;
+        double BackLeftVal = y - x + rot;
+        double BackRightVal = y + x - rot;
 
         setPower(FrontLeftVal, BackLeftVal, FrontRightVal, BackRightVal);
     }
@@ -144,7 +144,11 @@ public class MecanumRobot {
     }
 
     public void setPowerCentic(double x, double y, double rot, double heading) {
-        setPower(new Vector3(x, y).rotated(-heading), rot);
+        setPower(new Vector3(x, y).rotated(heading), rot);
+    }
+
+    public void setPowerCentic(double x, double y, double rot) {
+        setPower(new Vector3(x, y).rotated(getHeading()), rot);
     }
 
     public void setPower(Vector3 vec, double rot) {
@@ -175,7 +179,7 @@ public class MecanumRobot {
 
         double headingpower = PID_Z.update(target_heading, heading);
 
-        setPowerCentic(-clip(PID_X.update(targetPos.x, currentPos.x), -maxmovespeed, maxmovespeed), clip(PID_Y.update(targetPos.y, currentPos.y), -maxmovespeed, maxmovespeed), clip(headingpower, -maxturnspeed, maxturnspeed), currentPos.heading);
+        setPowerCentic(clip(PID_X.update(targetPos.x, currentPos.x), -maxmovespeed, maxmovespeed), clip(PID_Y.update(targetPos.y, currentPos.y), -maxmovespeed, maxmovespeed), clip(headingpower, -maxturnspeed, maxturnspeed), currentPos.heading);
     }
 
     public void goToPoint(double target_x, double target_y, double target_heading, double currentPos_x, double currentPos_y, double currentHeading, double maxmovespeed, double maxturnspeed) {

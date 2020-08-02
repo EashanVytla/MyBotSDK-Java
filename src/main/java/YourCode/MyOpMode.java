@@ -7,6 +7,7 @@ import InternalFiles.*;
 //Make sure that you extend to OpMode to access the robot properly.
 public class MyOpMode extends OpMode {
     //IMPORTANT: When running please click the DEBUG button NOT RUN!
+
     //See EXAMPLE_OpMode in the ExampleCode Package for more information
     //See Documentation at https://eashan-vytla.gitbook.io/mybotsdk/
 
@@ -15,6 +16,6 @@ public class MyOpMode extends OpMode {
     }
 
     public void loop(){
-        //Robot code goes here. Runs in a loop.
+        //Put your Robot code here. This runs in a loop.
     }
 }
