@@ -47,7 +47,7 @@ public class Form {
                         }else {
                             adaptiveOpMode.Robot.msngr.setupIPMac();
                         }
-                        adaptiveOpMode.Robot.msngr.StartClient("v1.4,");
+                        adaptiveOpMode.Robot.msngr.StartClient("v1.5,");
                         adaptiveOpMode.Robot.msngr.StartClient("start,");
                         adaptiveOpMode.init();
                         StrtBtn.setText("Start");

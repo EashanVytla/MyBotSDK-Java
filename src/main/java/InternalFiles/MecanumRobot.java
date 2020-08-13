@@ -165,7 +165,13 @@ public class MecanumRobot {
 
     public void goToPoint(Pose2d targetPos, Pose2d currentPos, double maxmovespeed, double maxturnspeed) {
         double heading = 0;
-        double target_heading = targetPos.heading;
+        double target_heading;
+
+        if(targetPos.heading > 2 * Math.PI){
+            target_heading = Math.toRadians(targetPos.heading);
+        }else{
+            target_heading = targetPos.heading;
+        }
 
         if (currentPos.heading <= Math.PI) {
             heading = currentPos.heading;
@@ -173,7 +179,7 @@ public class MecanumRobot {
             heading = -((2 * Math.PI) - currentPos.heading);
         }
 
-        if (Math.abs(targetPos.heading - heading) >= Math.toRadians(180.0)) {
+        if (Math.abs(target_heading - heading) >= Math.toRadians(180.0)) {
             target_heading = -((2 * Math.PI) - targetPos.heading);
         }
 

@@ -22,16 +22,23 @@
     <list default="true" id="03066d2b-0fb5-4a63-bde9-7595eedf72d6" name="Default Changelist" comment="Some new files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/InternalFiles/ClientSNCH.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/InternalFiles/ClientSNCH.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/InternalFiles/Form$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/InternalFiles/Form$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/InternalFiles/MecanumRobot.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/InternalFiles/MecanumRobot.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/YourCode/Localizer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/YourCode/Localizer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/YourCode/Mecanum_Drive.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/YourCode/Mecanum_Drive.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/YourCode/Localizer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/YourCode/Mecanum_Drive.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/YourCode/MyOpMode$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/YourCode/MyOpMode$State.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/YourCode/MyOpMode$State.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/YourCode/MyOpMode$State.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/YourCode/MyOpMode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/YourCode/MyOpMode.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/YourCode/PID_Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ExampleCode/EXAMPLE_FSM_Intro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ExampleCode/EXAMPLE_FSM_Intro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ExampleCode/EXAMPLE_GO_TO_POINT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ExampleCode/EXAMPLE_GO_TO_POINT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ExampleCode/EXAMPLE_OpMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ExampleCode/EXAMPLE_OpMode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/InternalFiles/ClientSNCH.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InternalFiles/ClientSNCH.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/InternalFiles/Form.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InternalFiles/Form.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/InternalFiles/Form.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InternalFiles/Form.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/InternalFiles/MecanumRobot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InternalFiles/MecanumRobot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/InternalFiles/RegisterOpMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InternalFiles/RegisterOpMode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/YourCode/Localizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ExampleCode/EXAMPLE_ThreeWheelLocalizer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/YourCode/Mecanum_Drive.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/YourCode/MyOpMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/YourCode/MyOpMode.java" afterDir="false" />
@@ -200,45 +207,45 @@
     </state>
     <state x="493" y="137" key="FileChooserDialogImpl/0.0.1422.760@0.0.1422.760" timestamp="1595895737802" />
     <state x="666" y="187" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1596326932908" />
-    <state width="1877" height="166" key="GridCell.Tab.0.bottom" timestamp="1596326934409">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1380" height="243" key="GridCell.Tab.0.bottom" timestamp="1597274086519">
+      <screen x="0" y="0" width="1422" height="760" />
     </state>
-    <state width="1380" height="165" key="GridCell.Tab.0.bottom/0.0.1422.760@0.0.1422.760" timestamp="1596064229445" />
+    <state width="1380" height="243" key="GridCell.Tab.0.bottom/0.0.1422.760@0.0.1422.760" timestamp="1597274086519" />
     <state width="1877" height="166" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596326934409" />
-    <state width="1877" height="166" key="GridCell.Tab.0.center" timestamp="1596326934409">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1380" height="243" key="GridCell.Tab.0.center" timestamp="1597274086519">
+      <screen x="0" y="0" width="1422" height="760" />
     </state>
-    <state width="1380" height="165" key="GridCell.Tab.0.center/0.0.1422.760@0.0.1422.760" timestamp="1596064229445" />
+    <state width="1380" height="243" key="GridCell.Tab.0.center/0.0.1422.760@0.0.1422.760" timestamp="1597274086519" />
     <state width="1877" height="166" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596326934409" />
-    <state width="1877" height="166" key="GridCell.Tab.0.left" timestamp="1596326934409">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1380" height="243" key="GridCell.Tab.0.left" timestamp="1597274086518">
+      <screen x="0" y="0" width="1422" height="760" />
     </state>
-    <state width="1380" height="165" key="GridCell.Tab.0.left/0.0.1422.760@0.0.1422.760" timestamp="1596064229445" />
+    <state width="1380" height="243" key="GridCell.Tab.0.left/0.0.1422.760@0.0.1422.760" timestamp="1597274086518" />
     <state width="1877" height="166" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596326934409" />
-    <state width="1877" height="166" key="GridCell.Tab.0.right" timestamp="1596326934409">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1380" height="243" key="GridCell.Tab.0.right" timestamp="1597274086519">
+      <screen x="0" y="0" width="1422" height="760" />
     </state>
-    <state width="1380" height="165" key="GridCell.Tab.0.right/0.0.1422.760@0.0.1422.760" timestamp="1596064229445" />
+    <state width="1380" height="243" key="GridCell.Tab.0.right/0.0.1422.760@0.0.1422.760" timestamp="1597274086519" />
     <state width="1877" height="166" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596326934409" />
-    <state width="1877" height="243" key="GridCell.Tab.1.bottom" timestamp="1596326934405">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1380" height="243" key="GridCell.Tab.1.bottom" timestamp="1597274086286">
+      <screen x="0" y="0" width="1422" height="760" />
     </state>
-    <state width="1380" height="165" key="GridCell.Tab.1.bottom/0.0.1422.760@0.0.1422.760" timestamp="1596064229446" />
+    <state width="1380" height="243" key="GridCell.Tab.1.bottom/0.0.1422.760@0.0.1422.760" timestamp="1597274086286" />
     <state width="1877" height="243" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596326934405" />
-    <state width="1877" height="243" key="GridCell.Tab.1.center" timestamp="1596326934405">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1380" height="243" key="GridCell.Tab.1.center" timestamp="1597274086285">
+      <screen x="0" y="0" width="1422" height="760" />
     </state>
-    <state width="1380" height="165" key="GridCell.Tab.1.center/0.0.1422.760@0.0.1422.760" timestamp="1596064229446" />
+    <state width="1380" height="243" key="GridCell.Tab.1.center/0.0.1422.760@0.0.1422.760" timestamp="1597274086285" />
     <state width="1877" height="243" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596326934405" />
-    <state width="1877" height="243" key="GridCell.Tab.1.left" timestamp="1596326934405">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1380" height="243" key="GridCell.Tab.1.left" timestamp="1597274086285">
+      <screen x="0" y="0" width="1422" height="760" />
     </state>
-    <state width="1380" height="165" key="GridCell.Tab.1.left/0.0.1422.760@0.0.1422.760" timestamp="1596064229445" />
+    <state width="1380" height="243" key="GridCell.Tab.1.left/0.0.1422.760@0.0.1422.760" timestamp="1597274086285" />
     <state width="1877" height="243" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596326934405" />
-    <state width="1877" height="243" key="GridCell.Tab.1.right" timestamp="1596326934405">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1380" height="243" key="GridCell.Tab.1.right" timestamp="1597274086286">
+      <screen x="0" y="0" width="1422" height="760" />
     </state>
-    <state width="1380" height="165" key="GridCell.Tab.1.right/0.0.1422.760@0.0.1422.760" timestamp="1596064229446" />
+    <state width="1380" height="243" key="GridCell.Tab.1.right/0.0.1422.760@0.0.1422.760" timestamp="1597274086286" />
     <state width="1877" height="243" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596326934405" />
     <state x="300" y="0" key="SettingsEditor" timestamp="1594828562535">
       <screen x="0" y="0" width="1920" height="1040" />

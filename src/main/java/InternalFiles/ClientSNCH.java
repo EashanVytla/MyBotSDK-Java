@@ -124,8 +124,9 @@ class ClientSNCH
             }while(remoteEP == null);*/
 
             if(first){
-                remoteEP = new InetSocketAddress(InetAddress.getByName(ipstring).getHostAddress(), 8719);
-                sender = new Socket(InetAddress.getByName(ipstring).getHostAddress(), 8719);
+                remoteEP = new InetSocketAddress(InetAddress.getByName("127.0.0.1").getHostAddress(), 8719);
+                System.out.println("MyBot ~ Connected to the target Virtual Robot, address: " + remoteEP);
+                sender = new Socket(InetAddress.getByName("127.0.0.1").getHostAddress(), 8719);
                 sender.setKeepAlive(true);
             }
 
