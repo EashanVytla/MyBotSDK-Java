@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -88,7 +91,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH" value="60" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Tests/MyBotProject" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -122,6 +125,7 @@
       </method>
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration>C:\Users\easha\AppData\Roaming\Subversion</configuration>
   </component>
@@ -207,45 +211,53 @@
     </state>
     <state x="493" y="137" key="FileChooserDialogImpl/0.0.1422.760@0.0.1422.760" timestamp="1595895737802" />
     <state x="666" y="187" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1596326932908" />
-    <state width="1380" height="243" key="GridCell.Tab.0.bottom" timestamp="1597274086519">
+    <state width="1380" height="243" key="GridCell.Tab.0.bottom" timestamp="1597552480057">
       <screen x="0" y="0" width="1422" height="760" />
     </state>
-    <state width="1380" height="243" key="GridCell.Tab.0.bottom/0.0.1422.760@0.0.1422.760" timestamp="1597274086519" />
+    <state width="1380" height="243" key="GridCell.Tab.0.bottom/0.0.1422.760/3200.0.1920.1040@0.0.1422.760" timestamp="1597420013279" />
+    <state width="1380" height="243" key="GridCell.Tab.0.bottom/0.0.1422.760@0.0.1422.760" timestamp="1597552480057" />
     <state width="1877" height="166" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596326934409" />
-    <state width="1380" height="243" key="GridCell.Tab.0.center" timestamp="1597274086519">
+    <state width="1380" height="243" key="GridCell.Tab.0.center" timestamp="1597552480056">
       <screen x="0" y="0" width="1422" height="760" />
     </state>
-    <state width="1380" height="243" key="GridCell.Tab.0.center/0.0.1422.760@0.0.1422.760" timestamp="1597274086519" />
+    <state width="1380" height="243" key="GridCell.Tab.0.center/0.0.1422.760/3200.0.1920.1040@0.0.1422.760" timestamp="1597420013279" />
+    <state width="1380" height="243" key="GridCell.Tab.0.center/0.0.1422.760@0.0.1422.760" timestamp="1597552480056" />
     <state width="1877" height="166" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596326934409" />
-    <state width="1380" height="243" key="GridCell.Tab.0.left" timestamp="1597274086518">
+    <state width="1380" height="243" key="GridCell.Tab.0.left" timestamp="1597552480056">
       <screen x="0" y="0" width="1422" height="760" />
     </state>
-    <state width="1380" height="243" key="GridCell.Tab.0.left/0.0.1422.760@0.0.1422.760" timestamp="1597274086518" />
+    <state width="1380" height="243" key="GridCell.Tab.0.left/0.0.1422.760/3200.0.1920.1040@0.0.1422.760" timestamp="1597420013279" />
+    <state width="1380" height="243" key="GridCell.Tab.0.left/0.0.1422.760@0.0.1422.760" timestamp="1597552480056" />
     <state width="1877" height="166" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596326934409" />
-    <state width="1380" height="243" key="GridCell.Tab.0.right" timestamp="1597274086519">
+    <state width="1380" height="243" key="GridCell.Tab.0.right" timestamp="1597552480057">
       <screen x="0" y="0" width="1422" height="760" />
     </state>
-    <state width="1380" height="243" key="GridCell.Tab.0.right/0.0.1422.760@0.0.1422.760" timestamp="1597274086519" />
+    <state width="1380" height="243" key="GridCell.Tab.0.right/0.0.1422.760/3200.0.1920.1040@0.0.1422.760" timestamp="1597420013279" />
+    <state width="1380" height="243" key="GridCell.Tab.0.right/0.0.1422.760@0.0.1422.760" timestamp="1597552480057" />
     <state width="1877" height="166" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596326934409" />
-    <state width="1380" height="243" key="GridCell.Tab.1.bottom" timestamp="1597274086286">
+    <state width="1380" height="243" key="GridCell.Tab.1.bottom" timestamp="1597552480057">
       <screen x="0" y="0" width="1422" height="760" />
     </state>
-    <state width="1380" height="243" key="GridCell.Tab.1.bottom/0.0.1422.760@0.0.1422.760" timestamp="1597274086286" />
+    <state width="1380" height="243" key="GridCell.Tab.1.bottom/0.0.1422.760/3200.0.1920.1040@0.0.1422.760" timestamp="1597420013279" />
+    <state width="1380" height="243" key="GridCell.Tab.1.bottom/0.0.1422.760@0.0.1422.760" timestamp="1597552480057" />
     <state width="1877" height="243" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596326934405" />
-    <state width="1380" height="243" key="GridCell.Tab.1.center" timestamp="1597274086285">
+    <state width="1380" height="243" key="GridCell.Tab.1.center" timestamp="1597552480057">
       <screen x="0" y="0" width="1422" height="760" />
     </state>
-    <state width="1380" height="243" key="GridCell.Tab.1.center/0.0.1422.760@0.0.1422.760" timestamp="1597274086285" />
+    <state width="1380" height="243" key="GridCell.Tab.1.center/0.0.1422.760/3200.0.1920.1040@0.0.1422.760" timestamp="1597420013279" />
+    <state width="1380" height="243" key="GridCell.Tab.1.center/0.0.1422.760@0.0.1422.760" timestamp="1597552480057" />
     <state width="1877" height="243" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596326934405" />
-    <state width="1380" height="243" key="GridCell.Tab.1.left" timestamp="1597274086285">
+    <state width="1380" height="243" key="GridCell.Tab.1.left" timestamp="1597552480057">
       <screen x="0" y="0" width="1422" height="760" />
     </state>
-    <state width="1380" height="243" key="GridCell.Tab.1.left/0.0.1422.760@0.0.1422.760" timestamp="1597274086285" />
+    <state width="1380" height="243" key="GridCell.Tab.1.left/0.0.1422.760/3200.0.1920.1040@0.0.1422.760" timestamp="1597420013279" />
+    <state width="1380" height="243" key="GridCell.Tab.1.left/0.0.1422.760@0.0.1422.760" timestamp="1597552480057" />
     <state width="1877" height="243" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596326934405" />
-    <state width="1380" height="243" key="GridCell.Tab.1.right" timestamp="1597274086286">
+    <state width="1380" height="243" key="GridCell.Tab.1.right" timestamp="1597552480057">
       <screen x="0" y="0" width="1422" height="760" />
     </state>
-    <state width="1380" height="243" key="GridCell.Tab.1.right/0.0.1422.760@0.0.1422.760" timestamp="1597274086286" />
+    <state width="1380" height="243" key="GridCell.Tab.1.right/0.0.1422.760/3200.0.1920.1040@0.0.1422.760" timestamp="1597420013279" />
+    <state width="1380" height="243" key="GridCell.Tab.1.right/0.0.1422.760@0.0.1422.760" timestamp="1597552480057" />
     <state width="1877" height="243" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596326934405" />
     <state x="300" y="0" key="SettingsEditor" timestamp="1594828562535">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -291,7 +303,7 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/MyBotSDK_Java$MyBotSDK_Java.ic" NAME="MyBotSDK-Java Coverage Results" MODIFIED="1596035432834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/RobotStudioSDK_Java$RobotStudioSDK_Java.ic" NAME="RobotStudioSDK-Java Coverage Results" MODIFIED="1593219452305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/MyBotSDK_Java$MyBotSDK_Java.ic" NAME="MyBotSDK-Java Coverage Results" MODIFIED="1596035432834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
