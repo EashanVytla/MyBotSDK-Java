@@ -28,6 +28,8 @@ public class MecanumRobot {
 
     protected ClientSNCH msngr;
 
+    private boolean powerSent = false;
+
     public MecanumRobot(Telemetry telemetry) {
         msngr = new ClientSNCH(telemetry);
 
@@ -71,6 +73,7 @@ public class MecanumRobot {
     }
 
     private void sendPower(double ul, double bl, double ur, double br) {
+        powerSent = true;
         /////Sending the packages
         if (odoquery && !Form.stopper/* || msngr.firstParse*/) {
             msngr.StartClient("O,");
@@ -117,6 +120,11 @@ public class MecanumRobot {
 
 
     public double getLeftOdo() {
+        if(!powerSent){
+            setPower(0, 0, 0);
+            powerSent = false;
+        }
+
         if (first) {
             odoquery = true;
             leftreciever = true;
@@ -126,6 +134,11 @@ public class MecanumRobot {
     }
 
     public double getRightOdo() {
+        if(!powerSent){
+            setPower(0, 0, 0);
+            powerSent = false;
+        }
+
         if (first) {
             odoquery = true;
             first = false;
@@ -135,6 +148,11 @@ public class MecanumRobot {
     }
 
     public double getStrafeOdo() {
+        if(!powerSent){
+            setPower(0, 0, 0);
+            powerSent = false;
+        }
+
         if (first) {
             odoquery = true;
             strafereciever = true;
@@ -193,6 +211,11 @@ public class MecanumRobot {
     }
 
     public Vector3 getPose() {
+        if(!powerSent){
+            setPower(0, 0, 0);
+            powerSent = false;
+        }
+
         if (firstp) {
             posequery = true;
             posereciever = true;
@@ -203,6 +226,11 @@ public class MecanumRobot {
 
     //Returns the heading in degrees
     public double getHeadingDegrees() {
+        if(!powerSent){
+            setPower(0, 0, 0);
+            powerSent = false;
+        }
+
         if (firstg) {
             gyroquery = true;
             gyroreciever = true;
@@ -213,6 +241,11 @@ public class MecanumRobot {
 
     //Returns the heading in radians
     public double getHeading() {
+        if(!powerSent){
+            setPower(0, 0, 0);
+            powerSent = false;
+        }
+
         if (firstg) {
             gyroquery = true;
             gyroreciever = true;
