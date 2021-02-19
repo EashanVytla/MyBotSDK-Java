@@ -16,6 +16,6 @@ public class MyOpMode extends OpMode {
     }
 
     public void loop(){
-        Robot.setPower(1, 0, 0);
+        Robot.setPower(1.0, 0 , 0);
     }
 }
