@@ -123,52 +123,6 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
   </component>
-  <component name="WindowStateProjectService">
-    <state x="168" y="36" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1613747523045">
-      <screen x="0" y="0" width="1422" height="760" />
-    </state>
-    <state x="168" y="36" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1422.760@0.0.1422.760" timestamp="1613747523045" />
-    <state x="493" y="136" key="FileChooserDialogImpl" timestamp="1609364419207">
-      <screen x="0" y="0" width="1422" height="760" />
-    </state>
-    <state x="493" y="136" key="FileChooserDialogImpl/0.0.1422.760@0.0.1422.760" timestamp="1609364419207" />
-    <state width="1380" height="89" key="GridCell.Tab.0.bottom" timestamp="1613746824753">
-      <screen x="0" y="0" width="1422" height="760" />
-    </state>
-    <state width="1380" height="89" key="GridCell.Tab.0.bottom/0.0.1422.760@0.0.1422.760" timestamp="1613746824753" />
-    <state width="1380" height="89" key="GridCell.Tab.0.center" timestamp="1613746824753">
-      <screen x="0" y="0" width="1422" height="760" />
-    </state>
-    <state width="1380" height="89" key="GridCell.Tab.0.center/0.0.1422.760@0.0.1422.760" timestamp="1613746824753" />
-    <state width="1380" height="89" key="GridCell.Tab.0.left" timestamp="1613746824753">
-      <screen x="0" y="0" width="1422" height="760" />
-    </state>
-    <state width="1380" height="89" key="GridCell.Tab.0.left/0.0.1422.760@0.0.1422.760" timestamp="1613746824753" />
-    <state width="1380" height="89" key="GridCell.Tab.0.right" timestamp="1613746824753">
-      <screen x="0" y="0" width="1422" height="760" />
-    </state>
-    <state width="1380" height="89" key="GridCell.Tab.0.right/0.0.1422.760@0.0.1422.760" timestamp="1613746824753" />
-    <state width="1380" height="211" key="GridCell.Tab.1.bottom" timestamp="1609364420916">
-      <screen x="0" y="0" width="1422" height="760" />
-    </state>
-    <state width="1380" height="211" key="GridCell.Tab.1.bottom/0.0.1422.760@0.0.1422.760" timestamp="1609364420916" />
-    <state width="1380" height="211" key="GridCell.Tab.1.center" timestamp="1609364420916">
-      <screen x="0" y="0" width="1422" height="760" />
-    </state>
-    <state width="1380" height="211" key="GridCell.Tab.1.center/0.0.1422.760@0.0.1422.760" timestamp="1609364420916" />
-    <state width="1380" height="211" key="GridCell.Tab.1.left" timestamp="1609364420915">
-      <screen x="0" y="0" width="1422" height="760" />
-    </state>
-    <state width="1380" height="211" key="GridCell.Tab.1.left/0.0.1422.760@0.0.1422.760" timestamp="1609364420915" />
-    <state width="1380" height="211" key="GridCell.Tab.1.right" timestamp="1609364420916">
-      <screen x="0" y="0" width="1422" height="760" />
-    </state>
-    <state width="1380" height="211" key="GridCell.Tab.1.right/0.0.1422.760@0.0.1422.760" timestamp="1609364420916" />
-    <state x="193" y="0" key="SettingsEditor" timestamp="1613746864225">
-      <screen x="0" y="0" width="1422" height="760" />
-    </state>
-    <state x="193" y="0" key="SettingsEditor/0.0.1422.760@0.0.1422.760" timestamp="1613746864225" />
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
