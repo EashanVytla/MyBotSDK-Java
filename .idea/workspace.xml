@@ -23,7 +23,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03066d2b-0fb5-4a63-bde9-7595eedf72d6" name="Default Changelist" comment="Some new files">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/MyBotSDK_Java.xml" beforeDir="false" afterPath="$PROJECT_DIR$/runConfigurations/MyBotSDK_Java.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/ExampleCode/EXAMPLE_FSM_Intro$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/ExampleCode/EXAMPLE_FSM_Intro$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/ExampleCode/EXAMPLE_FSM_Intro$myenum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/ExampleCode/EXAMPLE_FSM_Intro$myenum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/ExampleCode/EXAMPLE_FSM_Intro.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/ExampleCode/EXAMPLE_FSM_Intro.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/ExampleCode/EXAMPLE_GO_TO_POINT.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/ExampleCode/EXAMPLE_GO_TO_POINT.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/ExampleCode/EXAMPLE_OpMode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/ExampleCode/EXAMPLE_OpMode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/ExampleCode/EXAMPLE_PID.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/ExampleCode/EXAMPLE_PID.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/ExampleCode/EXAMPLE_ThreeWheelLocalizer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/ExampleCode/EXAMPLE_ThreeWheelLocalizer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/InternalFiles/ClientSNCH.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/InternalFiles/ClientSNCH.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/InternalFiles/ElapsedTime.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/InternalFiles/ElapsedTime.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/InternalFiles/Form$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/InternalFiles/Form$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/InternalFiles/Form$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/InternalFiles/Form$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/InternalFiles/Form$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/InternalFiles/Form$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/InternalFiles/Form$State.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/InternalFiles/Form$State.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/InternalFiles/Form.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/InternalFiles/Form.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/InternalFiles/MecanumRobot.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/InternalFiles/MecanumRobot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/InternalFiles/OpMode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/InternalFiles/OpMode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/InternalFiles/OpModeManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/InternalFiles/OpModeManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/InternalFiles/PID_Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/InternalFiles/PID_Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/InternalFiles/Pose2d.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/InternalFiles/Pose2d.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/InternalFiles/RegisterOpMode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/InternalFiles/RegisterOpMode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/InternalFiles/RunLoop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/InternalFiles/RunLoop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/InternalFiles/Telemetry.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/InternalFiles/Telemetry.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/InternalFiles/TelemetryRunnable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/InternalFiles/TelemetryRunnable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/InternalFiles/Vector3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/InternalFiles/Vector3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/YourCode/MyOpMode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/YourCode/MyOpMode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/YourCode/MyOpModeManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/YourCode/MyOpModeManager.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,14 +97,19 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH" value="60" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Github/MyBotSDK-Java" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$USER_HOME$/.jdks" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="InternalFiles" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Data\RobotSimulator\SDK\Github\MyBotSDK-Java" />
+      <recent name="C:\Data\RobotSimulator\SDK\Github\MyBotSDK-Java\src\main\java\YourCode" />
       <recent name="C:\Data\RobotSimulator\MyBotSDK-Java\src\main\java\InternalFiles" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -87,9 +120,6 @@
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="ExampleCode" />
-      <recent name="InternalFiles" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
       <recent name="InternalFiles" />
     </key>
   </component>
