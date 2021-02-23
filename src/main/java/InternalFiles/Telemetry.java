@@ -24,7 +24,7 @@ public class Telemetry {
         return false;
     }
 
-    public void addData(String caption, String message)
+    public void addData(String caption, Object message)
     {
         if (!this.caption.contains(caption))
         {
@@ -41,9 +41,9 @@ public class Telemetry {
                 }
             }
             if(index < this.message.size()){
-                this.message.set(index, message);
+                this.message.set(index, message.toString());
             }else{
-                this.message.add(message);
+                this.message.add(message.toString());
             }
         //}
     }

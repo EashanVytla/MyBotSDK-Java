@@ -19,12 +19,12 @@ public class ElapsedTime {
 
     public double timeSeconds()
     {
-        return (System.currentTimeMillis() - strtt)/1000;
+        return (System.currentTimeMillis() - strtt)/1000.0;
     }
 
     public double timeMinutes()
     {
-        return (System.currentTimeMillis() - strtt)/60000;
+        return (System.currentTimeMillis() - strtt)/60000.0;
     }
 
     public long timeMilliseconds()
