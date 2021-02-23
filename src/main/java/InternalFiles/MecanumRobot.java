@@ -14,9 +14,9 @@ public class MecanumRobot {
     protected static boolean gyroreciever;
     protected static boolean posereciever;
 
-    PID_Controller PID_X;
-    PID_Controller PID_Y;
-    PID_Controller PID_Z;
+    protected PID_Controller PID_X;
+    protected PID_Controller PID_Y;
+    protected PID_Controller PID_Z;
 
     private float kp = 0.03f;
     private float ki = 0;
@@ -161,11 +161,11 @@ public class MecanumRobot {
         return msngr.strafe * 2.11143889 * 1.07527431;
     }
 
-    public void setPowerCentic(double x, double y, double rot, double heading) {
+    public void setPowerCentric(double x, double y, double rot, double heading) {
         setPower(new Vector3(x, y).rotated(heading), rot);
     }
 
-    public void setPowerCentic(double x, double y, double rot) {
+    public void setPowerCentric(double x, double y, double rot) {
         setPower(new Vector3(x, y).rotated(getHeading()), rot);
     }
 
@@ -203,7 +203,7 @@ public class MecanumRobot {
 
         double headingpower = PID_Z.update(target_heading, heading);
 
-        setPowerCentic(clip(PID_X.update(targetPos.x, currentPos.x), -maxmovespeed, maxmovespeed), clip(PID_Y.update(targetPos.y, currentPos.y), -maxmovespeed, maxmovespeed), clip(headingpower, -maxturnspeed, maxturnspeed), currentPos.heading);
+        setPowerCentric(clip(PID_X.update(targetPos.x, currentPos.x), -maxmovespeed, maxmovespeed), clip(PID_Y.update(targetPos.y, currentPos.y), -maxmovespeed, maxmovespeed), clip(headingpower, -maxturnspeed, maxturnspeed), currentPos.heading);
     }
 
     public void goToPoint(double target_x, double target_y, double target_heading, double currentPos_x, double currentPos_y, double currentHeading, double maxmovespeed, double maxturnspeed) {

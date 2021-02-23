@@ -9,7 +9,7 @@ import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 import java.util.Map;
 
-public class Form {
+public class Form{
     private JButton StrtBtn;
     private JPanel mainpanel;
     private JComboBox OpModeDrp;
@@ -68,7 +68,7 @@ public class Form {
                     try {
                         adaptiveOpMode.stop();
                         stopper = true;
-                        System.out.println("Safely Stopped");
+                        System.out.println("Robot Controller Safely Stopped");
                         Thread.sleep(250);
                         runningLoop = false;
                         adaptiveOpMode.Robot.msngr.stop();
@@ -100,7 +100,7 @@ public class Form {
                 try {
                     if(mAppState == State.STATE_STOP){
                         stopper = true;
-                        System.out.println("Safely Stopped");
+                        System.out.println("Robot Controller Safely Stopped");
                         Thread.sleep(250);
                         runningLoop = false;
                         adaptiveOpMode.Robot.msngr.stop();
@@ -171,7 +171,7 @@ public class Form {
                 try {
                     if(mAppState == Form.State.STATE_STOP){
                         stopper = true;
-                        System.out.println("Safely Stopped");
+                        System.out.println("Robot Controller Safely Stopped");
                         Thread.sleep(250);
                         runningLoop = false;
                         adaptiveOpMode.Robot.msngr.stop();

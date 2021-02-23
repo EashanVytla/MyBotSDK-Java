@@ -5,7 +5,7 @@
 package InternalFiles;
 
 public class ElapsedTime {
-    long strtt = 0;
+    private long strtt = 0;
 
     public void startTime()
     {

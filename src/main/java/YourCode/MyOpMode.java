@@ -7,7 +7,7 @@ import InternalFiles.*;
 //Make sure that you extend to OpMode to access the robot properly.
 public class MyOpMode extends OpMode {
     //todo: IMPORTANT: When running please click the DEBUG button NOT RUN!
-    // ^^ This is necessary for a clean stop for the next run
+    // ^^ This is necessary for a graceful stop of the connection for the next run
 
     //See EXAMPLE_OpMode in the ExampleCode Package for more information
     //See Documentation at https://eashan-vytla.gitbook.io/mybotsdk/

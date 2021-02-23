@@ -31,21 +31,18 @@ public class Telemetry {
             this.caption.add(caption);
         }
 
-        //if (!this.message.contains(message))
-        //{
-            for(int i = 0; i < this.caption.size(); i++)
+        for(int i = 0; i < this.caption.size(); i++)
+        {
+            if(this.caption.get(i).equals(caption))
             {
-                if(this.caption.get(i).equals(caption))
-                {
-                    index = i;
-                }
+                index = i;
             }
-            if(index < this.message.size()){
-                this.message.set(index, message.toString());
-            }else{
-                this.message.add(message.toString());
-            }
-        //}
+        }
+        if(index < this.message.size()){
+            this.message.set(index, message.toString());
+        }else{
+            this.message.add(message.toString());
+        }
     }
 
     public void clear(){

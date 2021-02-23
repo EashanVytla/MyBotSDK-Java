@@ -19,7 +19,7 @@ class ClientSNCH
     protected double right = 0;
     protected double strafe = 0;
     protected double gyro = 0;
-    Vector3 pose = new Vector3(0, 0);
+    protected Vector3 pose = new Vector3(0, 0);
 
 /*    public double startLeft =0;
     public double startRight = 0;
@@ -27,17 +27,17 @@ class ClientSNCH
     public double startGyro = 0;
     public Vector3 startPose = new Vector3(0, 0);*/
 
-    SocketAddress remoteEP;
-    Socket sender;
+    protected SocketAddress remoteEP;
+    protected Socket sender;
 
-    DataInputStream din;
-    DataOutputStream dos;
-    String ipstring;
+    protected DataInputStream din;
+    protected DataOutputStream dos;
+    protected String ipstring;
 
     // Data buffer for incoming data.
     private byte[] bytes = new byte[1024];
-    BufferedReader reader;
-    boolean first = true;
+    protected BufferedReader reader;
+    protected boolean first = true;
 
     public ClientSNCH(Telemetry telemetry)
     {

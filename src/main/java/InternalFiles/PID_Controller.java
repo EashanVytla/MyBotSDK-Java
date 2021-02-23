@@ -1,9 +1,9 @@
 package InternalFiles;
 
 public class PID_Controller {
-    private  double kp;
+    private double kp;
     private double ki;
-    private  double kd;
+    private double kd;
     private double target;
     private double ierror;
     private long prevtime;
