@@ -9,7 +9,7 @@ import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 import java.util.Map;
 
-public class Form{
+public class Form {
     private JButton StrtBtn;
     private JPanel mainpanel;
     private JComboBox OpModeDrp;
@@ -66,10 +66,11 @@ public class Form{
                     mAppState = State.STATE_STOP;
                 }else if(mAppState == State.STATE_STOP){
                     try {
-                        adaptiveOpMode.stop();
+                        Thread.sleep(200);
                         stopper = true;
-                        System.out.println("Robot Controller Safely Stopped");
-                        Thread.sleep(250);
+                        adaptiveOpMode.stop();
+                        Thread.sleep(200);
+                        System.out.println("Safely Stopped");
                         runningLoop = false;
                         adaptiveOpMode.Robot.msngr.stop();
                         System.exit(0);
@@ -99,8 +100,10 @@ public class Form{
             public void windowClosing(WindowEvent windowEvent) {
                 try {
                     if(mAppState == State.STATE_STOP){
+                        Thread.sleep(200);
                         stopper = true;
-                        System.out.println("Robot Controller Safely Stopped");
+                        adaptiveOpMode.stop();
+                        System.out.println("Safely Stopped");
                         Thread.sleep(250);
                         runningLoop = false;
                         adaptiveOpMode.Robot.msngr.stop();
@@ -170,8 +173,10 @@ public class Form{
             {
                 try {
                     if(mAppState == Form.State.STATE_STOP){
+                        Thread.sleep(200);
                         stopper = true;
-                        System.out.println("Robot Controller Safely Stopped");
+                        adaptiveOpMode.stop();
+                        System.out.println("Safely Stopped");
                         Thread.sleep(250);
                         runningLoop = false;
                         adaptiveOpMode.Robot.msngr.stop();

@@ -9,10 +9,15 @@ import static InternalFiles.Form.runningLoop;
 
 public class RunLoop implements Runnable {
     public void run() {
-        while (runningLoop)
-        {
-            adaptiveOpMode.loop();
-            Form.i += 1;
+        if(adaptiveOpMode instanceof LinearOpMode){
+            System.out.println("Running a Linear OpMode");
+            ((LinearOpMode)(adaptiveOpMode)).runOpMode();
+        }else{
+            System.out.println("Running an Iterative OpMode");
+            while (runningLoop)
+            {
+                adaptiveOpMode.loop();
+            }
         }
     }
 }
