@@ -1,3 +1,6 @@
+// Eashan Vytla
+// Purpose: This program serves as an example OpMode so users can kickstart their development using MyBot
+
 package ExampleCode;
 
 import InternalFiles.ElapsedTime;

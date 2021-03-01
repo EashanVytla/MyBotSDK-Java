@@ -1,3 +1,7 @@
+// Eashan Vytla
+// 2/18/2021
+// Purpose: This class is the abstract class that enables users to use a LinearOpMode as well
+
 package InternalFiles;
 
 public abstract class LinearOpMode extends OpMode{

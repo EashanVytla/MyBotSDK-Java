@@ -1,3 +1,7 @@
+// Eashan Vytla
+// 3/29/2020
+// Purpose: This class allows users to interact with the virtual hardware
+
 package InternalFiles;
 
 import javax.swing.*;

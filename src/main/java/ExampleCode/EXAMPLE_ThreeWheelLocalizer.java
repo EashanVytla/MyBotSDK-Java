@@ -1,3 +1,6 @@
+// Eashan Vytla
+// Purpose: This program serves as an example of a three dead wheel localizer program using the odometry wheels on the robot
+
 package ExampleCode;
 
 import InternalFiles.MecanumRobot;

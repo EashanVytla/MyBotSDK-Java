@@ -1,3 +1,7 @@
+// Eashan Vytla
+// 3/29/2020
+// Purpose: This class allows users to add OpModes to the OpMode directory
+
 package InternalFiles;
 
 import java.lang.annotation.Retention;

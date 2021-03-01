@@ -1,3 +1,6 @@
+// Eashan Vytla
+// Purpose: This program serves as a template for users to start programming Linear OpModes
+
 package YourCode;
 
 import InternalFiles.ElapsedTime;

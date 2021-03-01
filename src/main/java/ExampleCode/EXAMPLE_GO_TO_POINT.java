@@ -1,9 +1,10 @@
+// Eashan Vytla
+// Purpose: This program serves as an example of a go-to-point using the in-build gotopoint() function in the Robot class
+
 package ExampleCode;
 
 import InternalFiles.OpMode;
 import InternalFiles.Pose2d;
-import InternalFiles.RegisterOpMode;
-import InternalFiles.Vector3;
 
 public class EXAMPLE_GO_TO_POINT extends OpMode {
 

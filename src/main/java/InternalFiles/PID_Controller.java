@@ -1,3 +1,7 @@
+// Eashan Vytla
+// 3/29/2020
+// Purpose: This class is an in-build PID controller for users to easily write PID loops
+
 package InternalFiles;
 
 public class PID_Controller {

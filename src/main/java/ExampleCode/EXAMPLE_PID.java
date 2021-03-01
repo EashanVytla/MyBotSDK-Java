@@ -1,8 +1,12 @@
+// Eashan Vytla
+// Purpose: This program serves as an example of a custom PID controller
+
 package ExampleCode;
 
 import InternalFiles.OpMode;
 
 public class EXAMPLE_PID extends OpMode {
+    //There is also an in-build PID controller in the Robot class
     double kp = 0.04;
     double kd = 0.00;
     double power = 0.0;
