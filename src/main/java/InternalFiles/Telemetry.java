@@ -38,7 +38,7 @@ public class Telemetry {
                 index = i;
             }
         }
-        if(index <= this.message.size() - 1){
+        if(index < this.message.size() - 1){
             this.message.set(index, message.toString());
         }else{
             this.message.add(message.toString());
