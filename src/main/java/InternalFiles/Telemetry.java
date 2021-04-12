@@ -38,7 +38,7 @@ public class Telemetry {
                 index = i;
             }
         }
-        if(index < this.message.size()){
+        if(index <= this.message.size() - 1){
             this.message.set(index, message.toString());
         }else{
             this.message.add(message.toString());
@@ -56,11 +56,13 @@ public class Telemetry {
 
     protected void updateInternal(JList list)
     {
-        DefaultListModel demoList = new DefaultListModel();
-        for(int i = 0; i < caption.size(); i++)
-        {
-            demoList.addElement(this.caption.get(i) + ": " + this.message.get(i));
+        if(this.caption.size() > 0 && this.message.size() > 0){
+            DefaultListModel demoList = new DefaultListModel();
+            for(int i = 0; i < caption.size(); i++)
+            {
+                demoList.addElement(this.caption.get(i) + ": " + this.message.get(i));
+            }
+            list.setModel(demoList);
         }
-        list.setModel(demoList);
     }
 }
