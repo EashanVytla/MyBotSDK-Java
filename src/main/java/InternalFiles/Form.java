@@ -50,6 +50,7 @@ public class Form {
                         adaptiveOpMode.Robot.msngr.StartClient("v1.5,");
                         adaptiveOpMode.Robot.msngr.StartClient("start,");
                         adaptiveOpMode.init();
+                        adaptiveOpMode.Robot.setPower(0, 0, 0);
                         StrtBtn.setText("Start");
                         mAppState = State.STATE_START;
                     }
